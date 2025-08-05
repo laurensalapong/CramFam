@@ -74,7 +74,7 @@ body {
 
 .screen-text {
   position: absolute;
-  top: 32%;  
+  top: 35%;  
   left: 50%;
   transform: translateX(-50%);
   width: 55%;
@@ -169,7 +169,7 @@ body {
 
 @media (max-width: 480px) {
   .screen-text {
-    top: 32%;
+    top: 33%;
     width: 55%;
     font-size: 1rem;
     padding: 0.25rem 0.25rem;
