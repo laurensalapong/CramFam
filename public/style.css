@@ -31,6 +31,14 @@ body {
   0 0 35px #f3ce71;
 }
 
+@media (max-width: 480px) {
+  .main-title {
+    text-shadow:
+      0 0 3px #ffffff,
+      0 0 6px #fcdff1;
+  }
+}
+
 .subtitle {
   font-family: 'VT323', monospace;
   font-size: 1.25rem;
@@ -137,11 +145,35 @@ body {
   }
 
   .screen-text {
-    top: 30%;
-    width: 80%;
-    font-size: 1rem;
-    padding: 0.5rem;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 66%;
+    height: 55%;
+    padding: 0.25rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    font-family: 'VT323', monospace;
+    font-size: 1.1rem;
+    color: #000;
+    box-sizing: border-box;
+    gap: 0.75rem;
   }
+  
+  /* Add this for small screens */
+  @media (max-width: 480px) {
+    .screen-text {
+      width: 80%;
+      top: 38%;
+      font-size: 1rem;
+      padding: 0.25rem 0.5rem;
+    }
+  }
+  
 
   .screen-text input {
     font-size: 1rem;
