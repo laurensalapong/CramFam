@@ -27,12 +27,20 @@ body {
   font-family: 'Press Start 2P', cursive;
   font-size: 1.75rem;
   color: white;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   text-shadow:
     0 0 5px #ffffff,
     0 0 10px #ffffff,
     0 0 15px #fcdff1,
     0 0 25px #f2d798;
+}
+
+.subtitle {
+  font-family: 'VT323', monospace;
+  font-size: 1.25rem;
+  color: #ffffff;
+  margin-bottom: 2rem;
+  margin-top: 0;
 }
 
 @media (max-width: 480px) {
@@ -105,7 +113,12 @@ body {
 
   .main-title {
     font-size: 1.2rem;
-    margin-bottom: 1.25rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .subtitle {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
   }
 
   #calendar {
@@ -128,4 +141,3 @@ body {
     margin-top: 1.5rem;
   }
 }
-
