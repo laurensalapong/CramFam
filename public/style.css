@@ -60,7 +60,7 @@ body {
 
 .laptop-container {
   position: relative;
-  margin-top: -85px; /* move up slightly */
+  margin-top: 2rem; /* adjust this as needed */
   max-width: 90%;
   margin-left: auto;
   margin-right: auto;
@@ -75,29 +75,31 @@ body {
 
   .screen-text {
     position: absolute;
-    top: 30%;
+    top: 34%;
     left: 50%;
     transform: translateX(-50%);
     width: 70%;
-    height: 50%;
+    height: 52%;
+    padding: 0.25rem 1rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 0.75rem;
     font-family: 'VT323', monospace;
-    font-size: 1rem;
-    text-align: center;
-  }
-
-  @media (max-width: 600px) {
-    .screen-text input {
-      font-size: 1rem;
-      padding: 0.4rem;
-      max-width: 100%;
-    }
+    font-size: 1.1rem;
+    color: #000;
+    gap: 0.75rem;
+    box-sizing: border-box;
   }
   
+  @media (max-width: 480px) {
+    .screen-text {
+      top: 38%;
+      width: 80%;
+      font-size: 1rem;
+      padding: 0.25rem 0.5rem;
+    }
+  }
   
 
   .screen-text input {
