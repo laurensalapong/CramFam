@@ -59,9 +59,28 @@ body {
 }
 
 .laptop-container {
-  position: relative;
-  max-width: 600px;
-  margin: -12rem auto 0 auto;
+  width: 100%;
+  max-width: 700px;
+  margin: auto;
+  padding: 1rem;
+}
+
+@media (max-width: 600px) {
+  .laptop-container {
+    max-width: 95%;
+    padding: 0.5rem;
+  }
+
+  .screen-text {
+    top: 34%;
+    width: 75%;
+    font-size: 1rem;
+  }
+
+  .screen-text input {
+    font-size: 1rem;
+    padding: 0.4rem;
+  }
 }
 
 
