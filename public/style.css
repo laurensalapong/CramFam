@@ -169,7 +169,7 @@ body {
 
 @media (max-width: 480px) {
   .screen-text {
-    top: 33%;
+    top: 35%;
     width: 55%;
     font-size: 1rem;
     padding: 0.25rem 0.25rem;
