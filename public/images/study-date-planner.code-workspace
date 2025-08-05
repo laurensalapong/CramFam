@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../../study-date-planner"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "study-date-planner"
+	}
+}

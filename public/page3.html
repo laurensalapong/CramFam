@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CramFam | Shared Calendar</title>
+<!-- Favicon setup -->
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="shortcut icon" href="/favicon.ico">
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=VT323&family=Press+Start+2P&display=swap" rel="stylesheet" />
+
+  <!-- FullCalendar -->
+  <link href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.css" rel="stylesheet"/>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="page3.css" />
+</head>
+<body>
+  <div class="container">
+    <h1 class="main-title">
+      <span id="typedCalendarTitle"></span><span class="cursor">|</span>
+    </h1>
+
+    <div id="calendar"></div>
+
+    <div class="button-wrapper">
+      <p id="shareInfo">Save the link to this current page to come back to your calendar!</p>
+      <button class="button" id="shareBtn">Copy Link to Share</button>
+    </div>    
+    
+  </div>
+
+  <!-- FullCalendar -->
+  <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.js"></script>
+
+  <!-- JS -->
+  <script src="page3.js"></script>
+</body>
+</html>

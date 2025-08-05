@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CramFam | Choose Availability</title>
+
+
+  <link rel="stylesheet" href="page2.css" />
+  <link href="https://fonts.googleapis.com/css2?family=VT323&family=Press+Start+2P&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="main-title">
+      <span id="typedAvailability"></span><span class="cursor">|</span>
+    </h1>      
+
+    <label for="dateRange">Select your available date range:</label>
+    <input type="text" id="dateRange" placeholder="Select range..." />
+
+    <div id="availability-container"></div>
+
+    <p id="errorMsg" class="error-message" style="display: none;">⚠️ Please complete all availability fields.</p>
+    
+    <div class="button-wrapper" id="submitWrapper" style="display: none;">
+      <button class="button" id="submitAvailabilityBtn" disabled>Submit Availability</button>
+    </div>    
+  <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+  <script src="page2.js"></script>
+</body>
+</html>

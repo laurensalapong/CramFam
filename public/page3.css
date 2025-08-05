@@ -1,0 +1,91 @@
+/* Retro Fonts */
+@import url('https://fonts.googleapis.com/css2?family=VT323&family=Press+Start+2P&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'VT323', monospace;
+  background: linear-gradient(-45deg, #fcdff1, #afbefa, #f8d185, #7566ff);
+  background-size: 400% 400%;
+  animation: gradientMove 15s ease infinite;
+  background-attachment: fixed;
+}
+
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+.main-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.75rem;
+  color: white;
+  margin-bottom: 2rem;
+  text-shadow:
+    0 0 5px #ffffff,
+    0 0 10px #ffffff,
+    0 0 15px #fcdff1,
+    0 0 25px #f2d798;
+}
+
+#calendar {
+  background: white;
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  font-family: 'VT323', monospace;
+}
+
+.button-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+#shareInfo {
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+  color: #555;
+  text-align: center;
+}
+
+
+.button {
+  padding: 12px 24px;
+  background-color: #f62def;
+  color: white;
+  font-family: 'VT323', monospace;
+  font-size: 1.1rem;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 10px;
+}
+
+.button:hover {
+  background-color: #511de0;
+  transform: scale(1.07);
+  box-shadow:
+    0 0 8px #f62def,
+    0 0 16px #f62def,
+    0 0 24px #f62def;
+}
+
+.cursor {
+  display: inline-block;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}

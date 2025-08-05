@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CramFam | Guest Input</title>
+<!-- Favicon setup -->
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="shortcut icon" href="/favicon.ico">
+  <link rel="stylesheet" href="page4.css" />
+  <link href="https://fonts.googleapis.com/css2?family=VT323&family=Press+Start+2P&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="main-title">
+      <span id="typedGuestTitle"></span><span class="cursor">|</span>
+    </h1>
+
+    <label for="guestName">Enter your name:</label>
+    <input type="text" id="guestName" placeholder="Your name..." />
+
+    <label for="guestDateRange">Select your available date range:</label>
+    <input type="text" id="guestDateRange" placeholder="Select range..." />
+
+    <div id="guest-availability-container"></div>
+
+    <div class="button-wrapper" id="submitWrapper" style="display: none;">
+      <button class="button" id="submitGuestAvailabilityBtn" disabled>Submit and View Calendar</button>
+    </div>
+
+    <p id="errorMsg" class="error-message" style="display: none;">⚠️ Please complete all availability fields or select "Not Available".</p>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+  <script src="page4.js"></script>
+</body>
+</html>

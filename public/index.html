@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CramFam</title>
+  <!-- Favicon setup -->
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="shortcut icon" href="/favicon.ico">
+
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=VT323&family=Press+Start+2P&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div class="container">
+    <h1 class="main-title"><span id="typedTitle"></span><span class="cursor">|</span></h1>
+    <p class="subtitle">Find your study buddies and schedule sessions together with ease.</p>
+
+    <div class="laptop-container">
+      <img src="laptop.png" alt="Retro Laptop" class="laptop-image" />
+      <div class="screen-text">
+        <label for="name">Enter your name:</label>
+        <input type="text" id="name" placeholder="Your name..." required />
+
+        <label for="event">Enter your event name:</label>
+        <input type="text" id="event" placeholder="Study session..." required />
+
+        <div class="button-wrapper">
+          <button class="button" id="createBtn">Create Study Date</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
