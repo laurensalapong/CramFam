@@ -21,7 +21,7 @@ body {
   font-family: 'Press Start 2P', cursive;
   font-size: 2.5rem;
   color: white;
-  margin-top: 4rem;
+  margin-top: 2rem;
   margin-bottom: 2rem;
   text-shadow:
   0 0 5px #ffffff,
@@ -60,7 +60,7 @@ body {
 
 .laptop-container {
   position: relative;
-  margin-top: 2rem;
+  margin-top: 1rem;
   max-width: 90%;
   margin-left: auto;
   margin-right: auto;
@@ -144,6 +144,7 @@ body {
   .laptop-container {
     max-width: 95%;
     padding: 0.5rem;
+    margin-top: 0.5rem;
   }
 
   .screen-text {
@@ -168,7 +169,7 @@ body {
 
 @media (max-width: 480px) {
   .screen-text {
-    top: 33%;
+    top: 34%;
     width: 55%;
     font-size: 1rem;
     padding: 0.25rem 0.25rem;
@@ -180,5 +181,12 @@ body {
     max-width: 160px;
     font-size: 0.85rem;
     padding: 0.2rem 0.4rem;
+  }
+
+  .button-wrapper {
+    position: relative;
+    z-index: 10;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
   }
 }
