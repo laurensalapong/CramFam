@@ -89,3 +89,35 @@ body {
     opacity: 0;
   }
 }
+
+@media (max-width: 600px) {
+  .container {
+    padding: 2rem 1rem;
+  }
+
+  .main-title {
+    font-size: 1.2rem;
+    margin-bottom: 1.25rem;
+  }
+
+  #calendar {
+    padding: 0.5rem;
+    font-size: 0.9rem;
+  }
+
+  #shareInfo {
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+  }
+
+  .button {
+    width: 100%;
+    font-size: 1rem;
+    padding: 10px;
+  }
+
+  .button-wrapper {
+    margin-top: 1.5rem;
+  }
+}
+

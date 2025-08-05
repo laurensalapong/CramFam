@@ -118,3 +118,43 @@ body::before {
   font-size: 1rem;
   margin-top: 1rem;
 }
+
+@media (max-width: 600px) {
+  .container {
+    padding: 2rem 1rem;
+  }
+
+  .main-title {
+    font-size: 1.3rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .date-block {
+    padding: 0.75rem;
+    margin: 1rem 0;
+  }
+
+  .date-block h3 {
+    font-size: 1.2rem;
+  }
+
+  .time-range {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .time-range input[type="time"] {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  .button {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+  }
+
+  .error-message {
+    font-size: 0.9rem;
+  }
+}
