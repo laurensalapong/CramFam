@@ -168,7 +168,7 @@ body {
 
 @media (max-width: 480px) {
   .screen-text {
-    top: 34%;
+    top: 32%;
     width: 55%;
     font-size: 1rem;
     padding: 0.25rem 0.25rem;
@@ -180,12 +180,5 @@ body {
     max-width: 160px;
     font-size: 0.85rem;
     padding: 0.2rem 0.4rem;
-  }
-
-  .button-wrapper {
-    position: relative;
-    z-index: 10;
-    margin-top: 2rem;
-    margin-bottom: 3rem;
   }
 }
