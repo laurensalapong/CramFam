@@ -1,5 +1,5 @@
 // Typing animation for main title
-const titleText = "Welcome to CramFam";
+const titleText = "Welcome to CramFam!";
 const typedTitle = document.getElementById("typedTitle");
 let index = 0;
 
