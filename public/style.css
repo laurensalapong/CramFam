@@ -60,10 +60,8 @@ body {
 
 .laptop-container {
   position: relative;
-  margin-top: 1rem;
-  max-width: 90%;
-  margin-left: auto;
-  margin-right: auto;
+  max-width: 600px;  /* Restore normal size for desktop */
+  margin: -50px auto 0 auto; /* top margin adjusted */
 }
 
 .laptop-image {
